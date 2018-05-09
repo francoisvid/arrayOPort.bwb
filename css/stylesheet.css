@@ -1,0 +1,11 @@
+body{
+    color: black;
+    padding: auto 200px;
+/*    text-align: center;*/
+}
+
+.reponse{
+    color: white;
+    background-color: red;
+    margin-left: 600px;
+}

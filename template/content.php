@@ -1,8 +1,11 @@
+<body>
 <?php
+if(isset($_GET['page']) == false){
+    include 'content/accueil.php';
+}else{
+    include 'content/' .$_GET['page'];
+}
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+?>
+</body>
 

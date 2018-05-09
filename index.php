@@ -1,11 +1,17 @@
 <?php
-/**
-* Decouverte de php et de git a travers l'utilisation des fonctionnalités de php
-* http://php.net/manual/fr/reserved.variables.files.php
-*/
 
-// opérations basiques sur les fichiers (les dossiers)
+session_start();
 
-// afficher le chemin complet du script
+include 'template/header.php';
+include 'template/navigation.php';
+include 'template/content.php';
+include 'template/footer.php';
 
-// afficher les fichiers et les dossiers du dossier "serveurweb" dans une arborescence.
+
+$_SESSION['pseudo'] = "admin";
+$_SESSION['password'] = "admin";
+//$_SESSION['time']     = time()
+
+
+?>
+
