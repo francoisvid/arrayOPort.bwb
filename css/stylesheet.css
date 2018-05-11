@@ -1,11 +1,68 @@
+
+
 body{
     color: black;
     padding: auto 200px;
-/*    text-align: center;*/
+    background: #b5bdc8;
+    background: -moz-linear-gradient(left, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+    background: -webkit-linear-gradient(left, #b5bdc8 0%,#828c95 36%,#28343b 100%);
+    background: linear-gradient(to right, #b5bdc8 0%,#828c95 36%,#28343b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 );
+    text-align: center;
+}
+
+.question{
+    color: white;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin: 70px;  
 }
 
 .reponse{
-    color: white;
-    background-color: red;
-    margin-left: 600px;
+    color: black;
+    background-color: Gainsboro ;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin: 70px;
 }
+
+.test{
+    margin: 70px  !important; 
+}
+
+.connexion{
+    margin:auto !important;  
+}
+
+.container2{
+    margin: 70px 410px !important;
+
+}
+.rounded{
+    border-radius: 30px !important; 
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px !important;
+}
+
+.btn-success{
+    margin: auto 55px;
+
+}
+
+.btnmod{
+    width: 300px;
+    margin: auto;
+}
+
+.btnenvoyer{
+    width: 485px;
+    margin: auto;
+}
+
+legend{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
