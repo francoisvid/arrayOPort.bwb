@@ -8,14 +8,15 @@ body{
     background: -webkit-linear-gradient(left, #b5bdc8 0%,#828c95 36%,#28343b 100%);
     background: linear-gradient(to right, #b5bdc8 0%,#828c95 36%,#28343b 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 );
-    text-align: center;
+/*    text-align: center;*/
 }
 
 .question{
-    color: white;
+    color: black;
+    background-color: Gainsboro ;
     border-radius: 5px;
     padding-bottom: 10px;
-    margin: 70px;  
+    margin: 100px 200px;
 }
 
 .reponse{
@@ -23,7 +24,7 @@ body{
     background-color: Gainsboro ;
     border-radius: 5px;
     padding-bottom: 10px;
-    margin: 70px;
+    margin: 100px 200px;
 }
 
 .test{
@@ -53,7 +54,7 @@ h1{
 }
 
 .btnmod{
-    width: 300px;
+    width: 290px;
     margin: auto;
 }
 
@@ -66,3 +67,15 @@ legend{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.marketing{
+    text-align: center;
+    margin-top: 100px;
+}
+
+main{
+    padding-top: 50px;
+}
+
+.story{
+    text-align: justify !important;
+}
