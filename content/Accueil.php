@@ -59,34 +59,34 @@
         <div class="col-12">
             <div class="row">
                 <div class="col-lg-4 story">
-                    <img class="rounded-circle" src="http://www.miam.ma/wp-content/uploads/2018/01/bocuse-1024x1024.jpg" alt="Generic placeholder image" width="140" height="140">
-                    <h2>Paul Bocuse</h2>
+                    <img class="rounded-circle photos" src="http://www.miam.ma/wp-content/uploads/2018/01/bocuse-1024x1024.jpg" alt="Generic placeholder image" width="140" height="140">
+                    <h2 class="col-lg-10 nom">Paul Bocuse</h2>
                     <p>Paul Bocuse, né le 11 février 1926 et mort le 20 janvier 2018 dans son Auberge du Pont de Collonges, à Collonges-au-Mont-d'Or, près de Lyon1, est un grand chef cuisinier français. Trois étoiles au Guide Michelin pendant 53 années (de 1965 à 2018)
                         <span id="Paul" style="display:none;">il compte parmi les plus célèbres cuisiniers du monde et fut un précurseur de la nouvelle cuisine, l'un des maîtres de la cuisine traditionnelle et de la grande cuisine2.
                             Il est fait chevalier de la Légion d'honneur par le président Valéry Giscard d'Estaing en 1975, puis commandeur en 2004.
                             Il est désigné « cuisinier du siècle » par Gault et Millau et « pape de la gastronomie » en 1989, puis » chef du siècle » en 2011 par The Culinary Institute of America (en).
                             Il a dirigé de nombreux restaurants à Lyon et dans le monde, dont son Trois étoiles, le restaurant gastronomique L'Auberge du Pont de Collonges,
-                            et a fondé les Bocuse d'Or en 1987, un concours de gastronomie.</p></span><br><button type="button" class="btn btn-secondary" onclick="Paul();">Suite...</button>
+                            et a fondé les Bocuse d'Or en 1987, un concours de gastronomie.</p></span><br><button type="button" class="btn btn-secondary btnSuite" onclick="Paul();">Suite...</button>
 
                 </div>
                 <div class="col-lg-4 story">
-                    <img class="rounded-circle" src="https://e-metropolitain.fr/wp-content/uploads/2017/02/Gilles-Goujon-1024x1024.jpg" alt="Generic placeholder image" width="140" height="140">
-                    <h2>Gille Goujon</h2>                
+                    <img class="rounded-circle photos" src="https://e-metropolitain.fr/wp-content/uploads/2017/02/Gilles-Goujon-1024x1024.jpg" alt="Generic placeholder image" width="140" height="140">
+                    <h2 class="col-lg-10 nom">Gille Goujon</h2>                
                     <p>Gilles Goujon, né le 10 décembre 19611 à Bourges dans le Cher, est un chef cuisinier français du restaurant L'Auberge du Vieux Puits à Fontjoncouse (Aude), trois étoiles au Guide Michelin depuis 2010 et 5 toques au Gault & Millau depuis 20092.
                         <span id="Gille" style="display:none;">Le père de Gilles Goujon était pilote de chasse; il a vécu à Marrakech au Maroc, en Allemagne et à Metz, selon les affectations de son père.
                             Après la mort prématurée de ce dernier, sa famille s'installe à Béziers. Peu passionné pour les études, son parcours scolaire est un échec. Il décide donc de rentrer dans la vie active en devenant serveur dans un restaurant. C'est cette expérience du métier qui lui donne
                             le goût de devenir cuisinier.
                             En 2015, il intègre le jury à la cinquième saison de l'émission MasterChef3.<br><br><br><br><br>
-                            </p></span><br><button type="button" class="btn btn-secondary" onclick="Gille();">Suite...</button>
+                            </p></span><br><button type="button" class="btn btn-secondary btnSuite" onclick="Gille();">Suite...</button>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4 story">
-                    <img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhsKS1z6nzBo-Np8fgHMb8jSpfZbJkYykHoPjQ3y3Jrpb3md1j" alt="Generic placeholder image" width="140" height="140">
-                    <h2>Cyril Lignac</h2>
+                    <img class="rounded-circle photos" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhsKS1z6nzBo-Np8fgHMb8jSpfZbJkYykHoPjQ3y3Jrpb3md1j" alt="Generic placeholder image" width="140" height="140">
+                    <h2 class="col-lg-10 nom">Cyril Lignac</h2>
                     <p>Il est chef et propriétaire du restaurant gastronomique Le Quinzième (1 étoile Michelin) dans le 15e arrondissement de Paris, du bistrot Le Chardenoux dans le 11e arrondissement, des restaurants Aux Prés et Le Bar des Prés dans le 6e arrondissement,
                         des Pâtisseries Cyril Lignac
                         <span id="Cyril" style="display:none;">dans les 6e, 11e, 15e, 16e et 17e arrondissements et des Chocolateries Cyril Lignac dans les 6e et 11e arrondissements de Paris. Il est également animateur dans de nombreux programmes culinaires sur la chaîne M6 et a
-                            publié des livres de recettes chez Hachette Pratique principalement.<br><br><br><br><br><br><br><br><br></p>
-                    </span><button type="button" class="btn btn-secondary" onclick="Cyril();">Suite...</button>
+                            publié des livres de recettes chez Hachette Pratique principalement.<br><br><br><br><br><br><br><br><br><br></p>
+                    </span><button type="button" class="btn btn-secondary btnSuite" onclick="Cyril();">Suite...</button>
                 </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
         </div>
