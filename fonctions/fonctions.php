@@ -1,6 +1,6 @@
 <?php
 
-// createMessage, crée un message et le stocke dans le fichier json
+// crée un message et le stocke dans le fichier json
 function createMessage() {
     $url = $_SERVER['DOCUMENT_ROOT'] . "/data/message.json";
 
@@ -25,7 +25,7 @@ function createMessage() {
     header('Location: http://php-decouverte.bwb/?page=livreDor.php');
 }
 
-//get message retourne une liste de message en tableau associatif
+// retourne une liste de message en tableau associatif
 function getMessages() {
     $url = $_SERVER['DOCUMENT_ROOT'] . "/data/message/message.json";
     $messages = file_get_contents($url);
@@ -34,6 +34,7 @@ function getMessages() {
     return $listeDeMessages;
 }
 
+// Inscription d'un utilisateur 
 function inscriptionJSON(){
 
 $url = $_SERVER['DOCUMENT_ROOT'] . "/data/users.json";
