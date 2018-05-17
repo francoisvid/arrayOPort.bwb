@@ -22,7 +22,7 @@ function createMessage() {
     file_put_contents($url, $messages);
 //    var_dump($_SERVER['DOCUMENT_ROOT']);
 
-    header('Location: http://php-decouverte.bwb/?page=livreDor.php');
+    header('Location: '.$_SERVER['SERVER_NAME'] .'/?page=livreDor.php');
 }
 
 //get message retourne une liste de message en tableau associatif
@@ -52,5 +52,5 @@ $usersJSON = json_encode($listeUsers);
 file_put_contents($url, $usersJSON);
 
 
-header('Location: http://php-decouverte.bwb/?page=connexion.php');
+header('Location: '.$_SERVER['SERVER_NAME'] .'/?page=connexion.php');
 }
