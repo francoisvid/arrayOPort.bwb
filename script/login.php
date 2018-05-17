@@ -11,12 +11,14 @@ if ($_POST['Pseudo'] !== "") {
     foreach ($listeUsers as $element) {
         if ($_POST['Pseudo'] === $element['Pseudo'] && $_POST['Password'] === $element['Password']) {
             $_SESSION['Pseudo'] = $element['Pseudo'];            
-            header('Location: http://php-decouverte.bwb/?page=livreDor.php');
+            header('Location: http://arrayOPort.bwb/?page=livreDor.php');
             exit;
         }
     }
+}else{
+    echo "Le champ est vide";
 }
-    header('Location: http://php-decouverte.bwb/?page=inscription.php');
+    header('Location: http://arrayOPort.bwb/?page=inscription.php');
 exit;
 
 ?>
