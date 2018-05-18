@@ -22,7 +22,7 @@ function createMessage() {
     file_put_contents($url, $messages);
 //    var_dump($_SERVER['DOCUMENT_ROOT']);
 
-    header('Location: '.$_SERVER['SERVER_NAME'] .'/?page=livreDor.php');
+    header('Location: http://arrayoport.bwb/?page=livreDor.php');
 }
 
 // retourne une liste de message en tableau associatif
@@ -34,13 +34,37 @@ function getMessages() {
     return $listeDeMessages;
 }
 
+// Connexion d'un utilisateur
+function login(){
+    session_start();
+
+$url = $_SERVER['DOCUMENT_ROOT'] . "/data/users.json";
+$users = file_get_contents($url);
+$listeUsers = json_decode($users, true);
+
+
+
+if ($_POST['Pseudo'] !== "") {
+    foreach ($listeUsers as $element) {
+        if ($_POST['Pseudo'] === $element['Pseudo'] && $_POST['Password'] === $element['Password']) {
+            $_SESSION['Pseudo'] = $element['Pseudo'];            
+            header('Location: http://arrayOPort.bwb/?page=livreDor.php');
+            exit;
+        }
+    }
+}else{
+    echo "Le champ est vide";
+}
+    header('Location: http://arrayOPort.bwb/?page=inscription.php');
+exit;
+
+}
+
 // Inscription d'un utilisateur 
 function inscriptionJSON(){
 
 $url = $_SERVER['DOCUMENT_ROOT'] . "/data/users.json";
-
 $users = file_get_contents($url);
-
 $listeUsers = json_decode($users, true);
 
 $newUser = array(
@@ -52,6 +76,5 @@ array_push($listeUsers, $newUser);
 $usersJSON = json_encode($listeUsers);
 file_put_contents($url, $usersJSON);
 
-
-header('Location: '.$_SERVER['SERVER_NAME'] .'/?page=connexion.php');
+header('Location: http://arrayoport.bwb/?page=connexion.php');
 }

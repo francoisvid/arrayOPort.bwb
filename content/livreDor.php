@@ -1,4 +1,4 @@
-<?php 
+<?php
 $date = date("d.m.Y");
 $heure = date("h:i");
 
@@ -14,7 +14,7 @@ if (isset($_SESSION['Pseudo'])) {
                 <div class="row">
                     <div class="col-md-12">
                         <div class="well well-sm">
-                            <form class="form-control" action="fonctions/scriptCommentaire/message.php" method="post" >
+                            <form class="form-control" action="script/message.php" method="post" >
                                 <fieldset>
                                     <fieldset>
 

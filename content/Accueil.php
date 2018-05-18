@@ -88,7 +88,7 @@
                         des Pâtisseries Cyril Lignac
                         <span id="Cyril" style="display:none;">dans les 6e, 11e, 15e, 16e et 17e arrondissements et des Chocolateries Cyril Lignac dans les 6e et 11e arrondissements de Paris. Il est également animateur dans de nombreux programmes culinaires sur la chaîne M6 et a
                             publié des livres de recettes chez Hachette Pratique principalement.<br><br><br><br><br><br><br><br><br><br></p>
-                    </span><button type="button" class="btn btn-secondary btnSuite" onclick="Cyril();">Suite...</button>
+                        </span><button type="button" class="btn btn-secondary btnSuite" onclick="Cyril();">Suite...</button>
                 </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
         </div>

@@ -33,8 +33,8 @@
                                             $element = basename($element, ".php");
                                             ?>
                                             <a  class="dropdown-item" href="/?page=<?= $element ?>"><?= $element ?></a><?php
-                    }
-                }
+                                        }
+                                    }
                                     ?>
                                 </div>
                             </div></li>
@@ -45,7 +45,7 @@
                     }
                 }
                 ?>
-                        <!--Boutton : connexion/deconnexion de la barnav-->
+            <!--Boutton : connexion/deconnexion de la barnav-->
         </ul>
         <form class="form-inline mt-2 mt-md-0">
             <a   href="http://arrayOPort.bwb/?page=connexion.php" class="btn btn-outline-success my-2 my-sm-0">Connexion</a>&nbsp&nbsp
