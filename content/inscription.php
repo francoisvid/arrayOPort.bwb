@@ -1,4 +1,4 @@
-<?php?>
+<!--Page d'inscription d'un utilisateur bootstrap (modal prevu)-->
 <div class="inscription">
 <div class="row">
         <div class="col-md-7">
@@ -10,9 +10,7 @@
                             <form class="form-control" action="/script/inscription.php" method="post" >
                                 <fieldset>
                                     <fieldset>
-
-
-
+                                        
                                         <!-- nom input-->
                                         <div class="form-group">
                                             <label class="col-md-4 control-label" for="name">Pseudo :</label>
@@ -20,7 +18,6 @@
                                                 <input id="name" name="Pseudo" type="text" placeholder="Pseudo" class="form-control">
                                             </div>
                                         </div>
-
 
                                         <!-- Email input-->
                                         <div class="form-group">
@@ -30,8 +27,6 @@
                                             </div>
                                         </div>
 
-  
-
                                         <!-- Form actions -->
                                         <div class="form-group">
                                             <div class="col-md-12">
@@ -39,8 +34,6 @@
                                             </div>
                                         </div>
                                     </fieldset>
-             
-        
                     </div>
                 </div>
             </div>

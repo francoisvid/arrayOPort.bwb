@@ -1,12 +1,10 @@
-<?php ?>
-
-<?php
+<?php 
 $date = date("d.m.Y");
 $heure = date("h:i");
 
 
 
-//verifie si l'utilisateur et bien inscrit, si oui propose de poster un com
+// Si la variable $_SESSION existe prepose une interface pour laissez un commentaire
 if (isset($_SESSION['Pseudo'])) {
     ?>
     <div class="row">
@@ -87,6 +85,7 @@ if (isset($_SESSION['Pseudo'])) {
                             <fieldset>
                                 <ul>
                                     <?php
+                                    // Inclusion du traitement des messages
                                     include 'template/vueMessages.php';
                                     ?>
                                 </ul>
